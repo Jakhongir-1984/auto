@@ -12,6 +12,16 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+.container {
+  max-width: 1200px;
+}
+
 .header {
   background-image: url(../images/header-bg.jpg);
   background-repeat: no-repeat;
