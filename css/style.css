@@ -402,6 +402,12 @@ a {
   height: 100px;
 } 
 
+@media (max-width: 1140px) {
+  .services__item:hover {
+    width: 450px;
+  }
+}
+
 @media (max-width: 1024px) {
   .header__images {
     width: 80%;
